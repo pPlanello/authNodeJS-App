@@ -1,0 +1,21 @@
+{
+  "name": "authnodejs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pPlanello/authNodeJS-App.git"
+  },
+  "author": "pPlanello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pPlanello/authNodeJS-App/issues"
+  },
+  "homepage": "https://github.com/pPlanello/authNodeJS-App#readme"
+}
