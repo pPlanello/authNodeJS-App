@@ -68,7 +68,7 @@ const loginUser = async(req, res = response) => {
         if (!userDB) {
             return res.status(400).json({
                 ok: false,
-                msg: 'El correo ' + email + 'no existe'
+                msg: 'El correo ' + email + ' no existe'
             });
         }
 
@@ -115,7 +115,9 @@ const reNewToken = async(req, res = response) => {
     return res.json({
         ok: true,
         msg: 'Renew token',
-        token
+        token,
+        id,
+        name
     })
 }
 
